@@ -4,7 +4,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: bisque;
   text-align: center;
   font-weight: 900;
 }
@@ -22,6 +21,12 @@
 }
 
 body {
+  min-height: 100vh;
+  width: 100vw;
+  background: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
+  background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,17 +37,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 body h1 {
-  margin: 20px 0;
+  margin: 20px;
   font-size: 42px;
+  font-size: 88px;
 }
 
 body #soundboard-container {
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,11 +104,12 @@ body #soundboard-container .card .card-text {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 40%;
+  width: 100%;
 }
 
 body #soundboard-container .card button {
   margin: 10px 0;
-  width: 150px;
+  width: 60%;
   height: 50px;
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
           box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
@@ -120,5 +125,23 @@ body #soundboard-container .card button {
 body #soundboard-container .card button:hover {
   -webkit-box-shadow: 0px 8px 15px black;
           box-shadow: 0px 8px 15px black;
+}
+
+@media only screen and (max-width: 1200px) {
+  body h1 {
+    font-size: 62px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  body h1 {
+    font-size: 52px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  body h1 {
+    font-size: 42px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
