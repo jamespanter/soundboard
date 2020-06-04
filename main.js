@@ -2,24 +2,24 @@ const soundboardContainer = document.getElementById("soundboard-container");
 
 const items = [
   {
-    title: "bird1",
-    imageFileName: "bird1",
-    soundFileName: "bird1",
+    title: "BIRD 1",
+    imageFileName: "bird1.png",
+    soundFileName: "bird1.wav",
   },
   {
-    title: "bird2",
-    imageFileName: "bird2",
-    soundFileName: "bird2",
+    title: "BIRD 1",
+    imageFileName: "bird2.png",
+    soundFileName: "bird2.wav",
   },
   {
-    title: "bird3",
-    imageFileName: "bird3",
-    soundFileName: "bird3",
+    title: "BIRD 1",
+    imageFileName: "bird3.png",
+    soundFileName: "bird3.wav",
   },
   {
-    title: "bird4",
-    imageFileName: "bird4",
-    soundFileName: "bird4",
+    title: "BIRD 1",
+    imageFileName: "bird4.png",
+    soundFileName: "bird4.wav",
   },
 ];
 
@@ -27,10 +27,10 @@ const mapSoundboardItems = () => {
   soundboardContainer.innerHTML = items
     .map((item) => {
       return `<div class="card" id=${item.title}>
-      <img src=../assets/${item.title}.png>
+      <img src=../assets/${item.imageFileName}>
       <div class="card-text">
       <h2>${item.title}</h2>
-      <button onclick=playSound("${item.soundFileName}.wav")>Play</button> 
+      <button onclick=playSound("${item.soundFileName}")>PLAY</button> 
       </div></div>`;
     })
     .join("");
