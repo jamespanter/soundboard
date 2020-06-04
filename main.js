@@ -3,6 +3,31 @@ const audioContainer = document.getElementById("audio-container");
 
 let items = [
   {
+    title: "Texmex",
+    imageFileName: "placeholder3.png",
+    soundFileName: "texmex.wav",
+  },
+  {
+    title: "Cat Dragged In",
+    imageFileName: "placeholder4.png",
+    soundFileName: "lookwhatthecatdraggedin.wav",
+  },
+  {
+    title: "You fucked up",
+    imageFileName: "placeholder2.png",
+    soundFileName: "nowyoufuckedup.wav",
+  },
+  {
+    title: "Trexx Warzone",
+    imageFileName: "placeholder4.png",
+    soundFileName: "AtrexxexplainswarzoneAudioExtracted.wav",
+  },
+  {
+    title: "Here We Go",
+    imageFileName: "placeholder1.png",
+    soundFileName: "aloneherewego.wav",
+  },
+  {
     title: "You Aight",
     imageFileName: "placeholder1.png",
     soundFileName: "youaight.wav",
@@ -11,11 +36,6 @@ let items = [
     title: "Trex Snort",
     imageFileName: "placeholder2.png",
     soundFileName: "trexsnort.wav",
-  },
-  {
-    title: "Texmex",
-    imageFileName: "placeholder3.png",
-    soundFileName: "texmex.wav",
   },
   {
     title: "Stutter",
@@ -28,24 +48,14 @@ let items = [
     soundFileName: "sidebysidewithanelf.wav",
   },
   {
-    title: "Riodeniro",
+    title: "Riodenidrio",
     imageFileName: "placeholder1.png",
     soundFileName: "riodeniro.wav",
-  },
-  {
-    title: "You fucked up",
-    imageFileName: "placeholder2.png",
-    soundFileName: "nowyoufuckedup.wav",
   },
   {
     title: "My baggings",
     imageFileName: "placeholder3.png",
     soundFileName: "mybaggings.wav",
-  },
-  {
-    title: "Cat Dragged In",
-    imageFileName: "placeholder4.png",
-    soundFileName: "lookwhatthecatdraggedin.wav",
   },
   {
     title: "Not Too Bad",
@@ -58,9 +68,9 @@ let items = [
     soundFileName: "imnigel.wav",
   },
   {
-    title: "Hiccup 3",
-    imageFileName: "placeholder2.png",
-    soundFileName: "hiccup3.wav",
+    title: "Hiccup 1",
+    imageFileName: "placeholder4.png",
+    soundFileName: "hiccup1.wav",
   },
   {
     title: "Hiccup 2",
@@ -68,9 +78,9 @@ let items = [
     soundFileName: "hiccup2.wav",
   },
   {
-    title: "Hiccup 1",
-    imageFileName: "placeholder4.png",
-    soundFileName: "hiccup1.wav",
+    title: "Hiccup 3",
+    imageFileName: "placeholder2.png",
+    soundFileName: "hiccup3.wav",
   },
   {
     title: "Fighting An Elf",
@@ -93,19 +103,9 @@ let items = [
     soundFileName: "cantanswernowsorry.wav",
   },
   {
-    title: "Trexx Warzone",
-    imageFileName: "placeholder4.png",
-    soundFileName: "AtrexxexplainswarzoneAudioExtracted.wav",
-  },
-  {
     title: "Stephen Hawking",
     imageFileName: "placeholder5.png",
     soundFileName: "AstephenhawkingAudioExtracted.wav",
-  },
-  {
-    title: "Here We Go",
-    imageFileName: "placeholder1.png",
-    soundFileName: "aloneherewego.wav",
   },
   {
     title: "2 Already",
@@ -117,7 +117,7 @@ let items = [
 const mapSoundboardItems = () => {
   soundboardContainer.innerHTML = items
     .map((item) => {
-      return `<div class="card" id=${item.title}>
+      return `<div class="card">
       <img src=../assets/${item.imageFileName} class="slide-in-left delay1">
       <div class="card-text" class="slide-in-left">
       <h2 class="slide-in-left delay2" >${item.title}</h2>
