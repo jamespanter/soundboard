@@ -39,5 +39,7 @@ const stopAudio = () => {
   }
 };
 
-mapSoundboardItems();
-mapAudioElements();
+const initialise = () => {
+  mapSoundboardItems();
+  mapAudioElements();
+};
