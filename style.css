@@ -6,6 +6,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   font-weight: 900;
+  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 *::-moz-selection {
@@ -22,7 +23,6 @@
 
 body {
   min-height: 100vh;
-  width: 100vw;
   background: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
   background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   background-size: cover;
@@ -66,8 +66,8 @@ body #soundboard-container {
 
 body #soundboard-container .card {
   border-radius: 30px;
-  height: 300px;
-  width: 200px;
+  height: 350px;
+  width: 230px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,6 +87,8 @@ body #soundboard-container .card img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 30px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 body #soundboard-container .card .card-text {
@@ -117,9 +119,29 @@ body #soundboard-container .card button {
   font-weight: 900;
   background-color: lightgreen;
   border-radius: 20px;
-  -webkit-transition: ease-in-out 0.2s;
-  transition: ease-in-out 0.2s;
+  -webkit-transition: ease-in-out 0.15s;
+  transition: ease-in-out 0.15s;
   cursor: pointer;
+}
+
+body #soundboard-container .card button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  height: 100%;
 }
 
 body #soundboard-container .card button:hover {
@@ -143,5 +165,11 @@ body #soundboard-container .card button:hover {
   body h1 {
     font-size: 42px;
   }
+}
+
+audio {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
