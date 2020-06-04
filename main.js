@@ -52,11 +52,6 @@ const items = [
     imageFileName: "bird1.png",
     soundFileName: "bird4.wav",
   },
-  {
-    title: "BIRD4",
-    imageFileName: "bird1.png",
-    soundFileName: "bird4.wav",
-  },
 ];
 
 const mapSoundboardItems = () => {
@@ -80,7 +75,11 @@ const playSound = (soundFileName) => {
 const mapAudioElements = () => {
   audioContainer.innerHTML = items
     .map((item) => {
-      return `<audio id="${item.soundFileName}" preload="auto"><source src=../assets/${item.soundFileName} type="audio/wav"></audio>`;
+      return `<audio id="${
+        item.soundFileName
+      }" preload="auto"><source src=../assets/${
+        item.soundFileName
+      } type="audio/${item.soundFileName.slice(-3)}"></audio>`;
     })
     .join("");
 };
