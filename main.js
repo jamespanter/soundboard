@@ -18,7 +18,7 @@ let items = [
     soundFileName: "nowyoufuckedup.wav",
   },
   {
-    title: "Trexx Warzone",
+    title: "Trex Warzone",
     imageFileName: "placeholder4.png",
     soundFileName: "AtrexxexplainswarzoneAudioExtracted.wav",
   },

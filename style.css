@@ -110,6 +110,10 @@ body #soundboard-container .card .card-text {
   width: 100%;
 }
 
+body #soundboard-container .card h2 {
+  font-size: 20px;
+}
+
 body #soundboard-container .card button {
   margin: 10px 0;
   width: 60%;
