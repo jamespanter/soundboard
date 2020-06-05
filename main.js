@@ -9,12 +9,12 @@ let items = [
   },
   {
     title: "Cat Dragged In",
-    imageFileName: "placeholder4.png",
+    imageFileName: "CatDraggedIn.png",
     soundFileName: "lookwhatthecatdraggedin.wav",
   },
   {
     title: "You fucked up",
-    imageFileName: "placeholder2.png",
+    imageFileName: "YouFuckedUp.png",
     soundFileName: "nowyoufuckedup.wav",
   },
   {
@@ -24,17 +24,17 @@ let items = [
   },
   {
     title: "Here We Go",
-    imageFileName: "placeholder1.png",
+    imageFileName: "HereWeGo.png",
     soundFileName: "aloneherewego.wav",
   },
   {
     title: "You Aight",
-    imageFileName: "placeholder3.png",
+    imageFileName: "YouAight.png",
     soundFileName: "youaight.wav",
   },
   {
     title: "Snort",
-    imageFileName: "placeholder2.png",
+    imageFileName: "Snort.png",
     soundFileName: "trexsnort.wav",
   },
   {
@@ -104,7 +104,7 @@ let items = [
   },
   {
     title: "Profanity",
-    imageFileName: "placeholder3.png",
+    imageFileName: "Profanity.png",
     soundFileName: "Profanity.wav",
   },
   {
