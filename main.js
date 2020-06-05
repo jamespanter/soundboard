@@ -29,7 +29,7 @@ let items = [
   },
   {
     title: "You Aight",
-    imageFileName: "placeholder1.png",
+    imageFileName: "placeholder3.png",
     soundFileName: "youaight.wav",
   },
   {
@@ -78,7 +78,7 @@ let items = [
     soundFileName: "hiccup3.wav",
   },
   {
-    title: "Fighting An Elf",
+    title: "Fighting With An Elf",
     imageFileName: "Gimly.png",
     soundFileName: "fightingwithanelf.wav",
   },
@@ -106,6 +106,11 @@ let items = [
     title: "Profanity",
     imageFileName: "placeholder3.png",
     soundFileName: "Profanity.wav",
+  },
+  {
+    title: "Fuckin This Girl",
+    imageFileName: "placeholder1.png",
+    soundFileName: "FuckinThisGirl.wav",
   },
 ];
 
