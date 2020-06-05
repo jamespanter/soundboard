@@ -137,7 +137,7 @@ const mapAudioElements = () => {
     .map((item) => {
       return `<audio id="${
         item.soundFileName
-      }" preload="auto"><source src=../assets/${
+      }" preload="none"><source src=../assets/${
         item.soundFileName
       } type="audio/${item.soundFileName.slice(-3)}"></audio>`;
     })
