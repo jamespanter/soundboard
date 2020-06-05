@@ -109,7 +109,7 @@ let items = [
   },
   {
     title: "Fuckin This Girl",
-    imageFileName: "placeholder1.png",
+    imageFileName: "Trexx_in_da_club.png",
     soundFileName: "FuckinThisGirl.wav",
   },
 ];
