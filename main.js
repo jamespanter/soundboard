@@ -4,7 +4,7 @@ const audioContainer = document.getElementById("audio-container");
 let items = [
   {
     title: "Texmex",
-    imageFileName: "placeholder3.png",
+    imageFileName: "Texmex.png",
     soundFileName: "texmex.wav",
   },
   {
@@ -18,8 +18,8 @@ let items = [
     soundFileName: "nowyoufuckedup.wav",
   },
   {
-    title: "Trex Warzone",
-    imageFileName: "placeholder4.png",
+    title: "Loadout Drop",
+    imageFileName: "LoadoutDrop.png",
     soundFileName: "AtrexxexplainswarzoneAudioExtracted.wav",
   },
   {
@@ -33,84 +33,79 @@ let items = [
     soundFileName: "youaight.wav",
   },
   {
-    title: "Trex Snort",
+    title: "Snort",
     imageFileName: "placeholder2.png",
     soundFileName: "trexsnort.wav",
   },
   {
     title: "Stutter",
-    imageFileName: "placeholder4.png",
+    imageFileName: "Stutter.png",
     soundFileName: "stutter.wav",
   },
   {
-    title: "Side By Side",
-    imageFileName: "placeholder5.png",
-    soundFileName: "sidebysidewithanelf.wav",
-  },
-  {
-    title: "Riodenidrio",
-    imageFileName: "placeholder1.png",
+    title: "Rio Denidrio",
+    imageFileName: "RioDenidrio.png",
     soundFileName: "riodeniro.wav",
   },
   {
-    title: "My baggings",
-    imageFileName: "placeholder3.png",
+    title: "Mr Baggings",
+    imageFileName: "MrBaggins.png",
     soundFileName: "mybaggings.wav",
   },
   {
     title: "Not Too Bad",
-    imageFileName: "placeholder5.png",
+    imageFileName: "Nottoobad.png",
     soundFileName: "Joenottoobad.wav",
   },
   {
     title: "Im Nigel",
-    imageFileName: "placeholder1.png",
+    imageFileName: "I'mNigel.png",
     soundFileName: "imnigel.wav",
   },
   {
     title: "Hiccup 1",
-    imageFileName: "placeholder4.png",
+    imageFileName: "Hiccup1.png",
     soundFileName: "hiccup1.wav",
   },
   {
     title: "Hiccup 2",
-    imageFileName: "placeholder3.png",
+    imageFileName: "Hiccup2.png",
     soundFileName: "hiccup2.wav",
   },
   {
     title: "Hiccup 3",
-    imageFileName: "placeholder2.png",
+    imageFileName: "Hiccup3.png",
     soundFileName: "hiccup3.wav",
   },
   {
     title: "Fighting An Elf",
-    imageFileName: "placeholder5.png",
+    imageFileName: "Gimly.png",
     soundFileName: "fightingwithanelf.wav",
   },
   {
     title: "Coolbeans",
-    imageFileName: "placeholder1.png",
+    imageFileName: "CoolBeans.png",
     soundFileName: "coolbeans.wav",
   },
   {
     title: "Chose My Ass",
-    imageFileName: "placeholder2.png",
+    imageFileName: "ChoseMyAss.png",
     soundFileName: "chosemyass.wav",
   },
   {
     title: "Cant Answer Now",
-    imageFileName: "placeholder3.png",
+    imageFileName: "Cantanswernow.png",
     soundFileName: "cantanswernowsorry.wav",
   },
   {
     title: "Stephen Hawking",
-    imageFileName: "placeholder5.png",
+    imageFileName: "StephenHawking.png",
     soundFileName: "AstephenhawkingAudioExtracted.wav",
   },
   {
-    title: "2 Already",
-    imageFileName: "placeholder2.png",
-    soundFileName: "2already.wav",
+    title: "Profanity",
+    imageFileName: "placeholder3.png",
+    soundFileName: "Profanity.wav",
   },
 ];
 
