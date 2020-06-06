@@ -123,10 +123,10 @@ const mapSoundboardItems = () => {
   soundboardContainer.innerHTML = items
     .map((item) => {
       return `<div class="card">
-      <img src=../assets/${item.imageFileName} class="slide-in-left delay1">
-      <div class="card-text" class="fade-in-bottom">
-      <h2 class="fade-in-bottom" delay2" >${item.title}</h2>
-      <button onclick=playSound("${item.soundFileName}") class="fade-in-bottom" delay2"><i class="fa fa-play" aria-hidden="true"></i></button> 
+      <img src=../assets/${item.imageFileName} class="slide-in-left">
+      <div class="card-text">
+      <h2 class="fade-in-bottom" >${item.title}</h2>
+      <button onclick=playSound("${item.soundFileName}") class="fade-in-bottom"><i class="fa fa-play" aria-hidden="true"></i></button> 
       </div></div>`;
     })
     .join("");
