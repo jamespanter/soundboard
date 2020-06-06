@@ -124,9 +124,9 @@ const mapSoundboardItems = () => {
     .map((item) => {
       return `<div class="card">
       <img src=../assets/${item.imageFileName} class="slide-in-left delay1">
-      <div class="card-text" class="slide-in-left">
-      <h2 class="slide-in-left delay2" >${item.title}</h2>
-      <button onclick=playSound("${item.soundFileName}") class="slide-in-left delay2"><i class="fa fa-play" aria-hidden="true"></i></button> 
+      <div class="card-text" class="fade-in-bottom">
+      <h2 class="fade-in-bottom" delay2" >${item.title}</h2>
+      <button onclick=playSound("${item.soundFileName}") class="fade-in-bottom" delay2"><i class="fa fa-play" aria-hidden="true"></i></button> 
       </div></div>`;
     })
     .join("");
