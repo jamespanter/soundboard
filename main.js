@@ -112,6 +112,11 @@ let items = [
     imageFileName: "Trexx_in_da_club.png",
     soundFileName: "FuckinThisGirl.wav",
   },
+  {
+    title: "2 Already",
+    imageFileName: "2already.png",
+    soundFileName: "2already.wav",
+  },
 ];
 
 const mapSoundboardItems = () => {
